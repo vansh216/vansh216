@@ -1,16 +1,42 @@
 <br clear="both">
 
-<h1 align="center">Hey everyone 👋 I am Vansh</h1>
+<style>
+  @keyframes slideIn {
+    from { opacity: 0; transform: translateX(-60px); }
+    to   { opacity: 1; transform: translateX(0); }
+  }
+  @keyframes wave {
+    0%,100% { transform: rotate(0deg); }
+    20%     { transform: rotate(20deg); }
+    40%     { transform: rotate(-10deg); }
+    60%     { transform: rotate(20deg); }
+    80%     { transform: rotate(-5deg); }
+  }
+  .wave { display: inline-block; animation: wave 2s ease-in-out infinite; transform-origin: 70% 70%; }
+  .word { display: inline-block; opacity: 0; animation: slideIn 0.5s ease forwards; }
+</style>
+
+<h1 align="center">
+
+ 
+  
+  <span class="word" style="animation-delay: 0.1s;">Hey everyone</span>
+  <span class="wave">👋</span>
+  <span class="word" style="animation-delay: 0.3s;">I </span>
+  <span class="word" style="animation-delay: 0.5s;">am </span>
+  <span class="word" style="animation-delay: 0.7s;">Vansh</span>
+</h1>
 
 ###
 
-<h3 align="center">MERN Stack Developer</h3>
+<h3 align="center"><span class="word" style="animation-delay: 1.0s;">Full Stack Developer</span></h3>
 
 ###
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/linkedin/default.svg" width="37" height="25" alt="linkedin logo"  />
-  <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/discord/default.svg" width="37" height="25" alt="discord logo"  />
+<a href="www.linkedin.com/in/vansh-kumar-patel-bb7752313">
+  <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/linkedin/default.svg" width="37" height="25" alt="linkedin logo"  /></a>
+  <a><img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/discord/default.svg" width="37" height="25" alt="discord logo"  />
   <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/whatsapp/default.svg" width="37" height="25" alt="whatsapp logo"  />
   <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/visualstudio/default.svg" width="37" height="25" alt="visualstudio logo"  />
   <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/telegram/default.svg" width="37" height="25" alt="telegram logo"  />
