@@ -1,4 +1,3 @@
-<br clear="both">
 
 <style>
   @keyframes slideIn {
@@ -15,6 +14,9 @@
   .wave { display: inline-block; animation: wave 2s ease-in-out infinite; transform-origin: 70% 70%; }
   .word { display: inline-block; opacity: 0; animation: slideIn 0.5s ease forwards; }
 </style>
+<br clear="both">
+
+
 
 <h1 align="center">
 
@@ -34,7 +36,7 @@
 ###
 
 <div align="center">
-<a href="www.linkedin.com/in/vansh-kumar-patel-bb7752313">
+<a href="https://www.linkedin.com/in/vansh-kumar-patel-bb7752313">
   <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/linkedin/default.svg" width="37" height="25" alt="linkedin logo"  /></a>
   <a><img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/discord/default.svg" width="37" height="25" alt="discord logo"  />
   <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/whatsapp/default.svg" width="37" height="25" alt="whatsapp logo"  />
