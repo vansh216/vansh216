@@ -1,19 +1,4 @@
 
-<style>
-  @keyframes slideIn {
-    from { opacity: 0; transform: translateX(-60px); }
-    to   { opacity: 1; transform: translateX(0); }
-  }
-  @keyframes wave {
-    0%,100% { transform: rotate(0deg); }
-    20%     { transform: rotate(20deg); }
-    40%     { transform: rotate(-10deg); }
-    60%     { transform: rotate(20deg); }
-    80%     { transform: rotate(-5deg); }
-  }
-  .wave { display: inline-block; animation: wave 2s ease-in-out infinite; transform-origin: 70% 70%; }
-  .word { display: inline-block; opacity: 0; animation: slideIn 0.5s ease forwards; }
-</style>
 <br clear="both">
 
 
