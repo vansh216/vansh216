@@ -19,6 +19,11 @@
 <h3 align="center"><span class="word" style="animation-delay: 1.0s;">Full Stack Developer</span></h3>
 
 ###
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="dark_mode.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="light_mode.svg" />
+  <img alt="vansh216's GitHub profile" src="dark_mode.svg" />
+</picture>
 
 <div align="center">
 <a href="https://www.linkedin.com/in/vansh-kumar-patel-bb7752313">
